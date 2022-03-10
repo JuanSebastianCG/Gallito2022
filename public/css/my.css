@@ -1,0 +1,7 @@
+.miborde {
+    padding: 3px 10px;
+    border: rgba(0, 0, 0, 0.1) 2px solid;
+    border-radius: 20px;
+
+    background: rgb(248 250 252);
+  }

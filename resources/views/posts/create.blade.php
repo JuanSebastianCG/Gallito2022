@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="container">
-        <h2> Crear una nueva Pubicacion</h2>
+        <h4> Crear una nueva Pubicacion</h4>
 
         {!! Form::open(['route' => 'posts.store','method' => 'post']) !!}
 

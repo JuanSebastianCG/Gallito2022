@@ -4,7 +4,7 @@
 
     <div class="container">
 
-        <h2>Editar una publicación existente</h2>
+        <h4>Editar una publicación existente</h4>
         @include('layouts.subview-form-errors')
 
         {!! Form::model($post, ['method' => 'PUT', 'route' => ['posts.update', $post -> id]]) !!}
