@@ -3,12 +3,12 @@
 
     <div class="row">
         <div class="input-group ">
-                <h5 class="card-title col-11">{{ $user->name }}</h5>
+                <h5 class="card-title col-10">{{ $user->name }}</h5>
                 @auth
                 @if($user->id == Auth::user()->id)
 
 
-                <div class="col col-lg-1 btn-group ">
+                <div class="col col-lg-2 btn-group ">
                     <a href="{{ route('posts.edit', $post->id)}}" class=" btn btn-info ">
                                     <i title="Editar post" class="fa-solid fa-pen-to-square"></i>
                     </a>
